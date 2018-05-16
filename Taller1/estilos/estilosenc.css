@@ -36,6 +36,10 @@ nav{
 	color: black;
 }
 
+.menu li:active {
+	background-color: lightgray;
+}
+
 .contenido{
 	width: 960px;
 	height: 600px;
