@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Encuetranos</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="estilos/estilosenc.css">
+<link href="http://assets.insights.litmus.com/campaigns/tedc-2015/assets/tweets.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	<header class="cabecera"><h1>TodosMisServicios.ec</h1></header>
+	<nav>
+		<ul id="menu">
+			<li class="boton"><a href="Principal.html">Principal</a></li>
+			<li class="boton"><a href="QuienesSomos.html">¿Quiénes somos?</a></li>
+			<li class="boton"><a href="Personal.html">Personal</a></li>
+			<li class="boton active"><a href="Encuentranos.html">Encuéntranos</a></li>
+		</ul>
+	</nav>
+	<div class="contenido">
+	<aside>
+		<div class="video">
+			<h3>¿Cómo usar nuestro sitio?</h3>
+			<img src="images/video.jpg" alt="">
+		</div>
+		<div class="twitter">
+			<h3>Stream</h3>
+
+			<div class="tweet" id="tweet-1">      
+				<div class="tweet-avatar-wrapper">
+					<div class="avatar"></div>
+				</div>
+				<div class="tweet-wrapper">
+					<span class="name"></span> <span class="handle"></span>
+					<span class="timestamp"></span>
+					<span class="copy"></span>
+				</div>
+			</div>
+			
+		</div>
+	</aside>
+	<section>
+		<div class="titulo"><h2>Envíanos tus opiniones</h2></div>
+		
+		<div class="formulario">
+			<form action="/action_page.php">
+				<div class="row">
+				  <div class="col-25">
+					<label for="nombres">Nombres Completos</label>
+				  </div>
+				  <div class="col-75">
+					<input type="text" id="nombres" name="nombrescomp" placeholder="Ingrese sus nombres">
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-25">
+					<label for="email">Correo Electrónico</label>
+				  </div>
+				  <div class="col-75">
+					<input type="text" id="email" name="correo" placeholder="Ingrese su correo electrónico">
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-25">
+					<label>Utilidad del sitio</label>
+				  </div>
+				  <div class="col-75">
+					<table width="200">
+					  <tr>
+					    <td>
+					      <input type="radio" name="RadioGroup" value="nada" id="RadioGroup_0">
+					      Nada
+						</td>
+						  
+						<td>
+					      <input type="radio" name="RadioGroup" value="poco" id="RadioGroup_1">
+					      Poco
+						</td>
+						  
+						<td>
+					      <input name="RadioGroup" type="radio" id="RadioGroup_2" value="algo" checked="checked">
+					      Algo
+						</td>
+						
+						<td>
+					      <input type="radio" name="RadioGroup" value="muy" id="RadioGroup_3">
+					      Muy
+						</td> 
+						  
+						<td>
+					      <input type="radio" name="RadioGroup" value="completamente" id="RadioGroup_4">
+					      Completamente
+						</td>  
+				      </tr>
+				    </table>
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-25">
+					<label for="edad">Edad</label>
+				  </div>
+				  <div class="col-75">
+					<select id="edad" name="edades">
+					  <option value="18">18</option>
+					  <option value="19">19</option>
+					  <option value="20">20</option>
+					</select>
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-25">
+					<label for="provincia">Provincia</label>
+				  </div>
+				  <div class="col-75">
+					<select id="provincia" name="provincias">
+					  <option value="australia">Azuay</option>
+					  <option value="canada">Guayas</option>
+					  <option value="usa">Pichincha</option>
+					</select>
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-25">
+					<label for="comentario">Comentarios</label>
+				  </div>
+				  <div class="col-75">
+					<textarea id="comentario" name="comentarios" placeholder="Ingrese sus comentarios" style="height:200px"></textarea>
+				  </div>
+				</div>
+				<div class="row">
+					<div class="check"><input type="checkbox" checked="checked">Deseo suscribirme para recibir noticias</div>
+				</div>
+				<div class="row">
+				  <input type="submit" value="Enviar">
+				</div>
+			</form>
+		</div>
+	</section>
+	</div>
+	<footer>
+		<div class="textfooter"><p>Ana Belén Negrete &amp; Daniel García &copy; 2018</p></div>
+		<div class="imgfooter"><img src="images/footer.jpg" width="124" height="62" alt=""></div>
+	</footer>
+</body>
+</html>
