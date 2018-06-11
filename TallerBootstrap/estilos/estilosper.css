@@ -1,0 +1,226 @@
+*{
+	margin: 0; padding: 0;
+}
+
+.cabecera{
+	width: 960px;
+	height: 50px;
+	margin: 50px auto;
+	background-image: url(../images/cabecera.jpg);
+	line-height: 50px;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	text-align: center;
+	font-size: 15pt;
+	color: purple;
+	border: solid 1px black; 
+}
+
+nav{
+	width: 960px;
+	height: 50px;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	margin: 0px auto;
+}
+
+#menu{
+	width: 960px;
+	height: 50px;
+}
+
+.boton{
+	width: 238px;
+	height: 50px;
+	float: left;
+	list-style: none;
+	line-height: 50px;
+	text-align: center;
+	background-color: rgb(128,0,128);
+	transition: all 0.4s ease-in-out;
+}
+
+#menu li a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu li:hover {
+	background-color: #00868b;
+}
+
+.active{
+	background-color: #cd853f;
+	font-weight: bold;
+}
+
+.contenido{
+	width: 960px;
+	height: 600px;
+	margin: 20px auto;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+aside{
+	width: 200px;
+	height: 600px;
+	border: solid 3px #00c5cd;
+	border-radius: 10px;
+	text-align: center;
+	float: left;
+}
+
+.video{
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+}
+
+.twitter{
+	width: 200px;
+	height: 350px;
+	margin-top: 10px;
+}
+
+
+/*TWITTER SNIPPET*/
+#tweet-1 .name::before {
+  content: "Kevin Mandeville";
+}
+
+#tweet-1 .handle::after {
+  content: "@KevinMandeville";
+}
+
+#tweet-1 .copy::before {
+  content: "I'm excited for #TEDC15! Who's going?";
+}
+
+#tweet-1 .timestamp::after {
+  content: "1m";
+}
+/*FIN TWITTER*/
+
+section{
+	width: 740px;
+	height: 600px;
+	float: right;
+}
+
+section .titulo{
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+.info1, .info2{
+	width: 740px;
+	margin: 10px 0px;
+}
+
+.info1{
+	height: 200px;
+}
+
+.imagen{
+	width: 300px;
+	height: 200px;
+	box-shadow: 5px 5px 10px 2px #8c8c8c;
+	float: left;
+}
+
+.texto1{
+	width: 420px;
+	height: 200px;
+	margin-left: 320px; 
+	text-align: justify;
+}
+
+.info2{
+	margin-top: 20px;
+	height: 380px;
+}
+
+.info2 li{
+	margin-left: 40px;
+}
+
+#sri{
+	width: 30px;
+}
+
+#sri:hover .infoextra{
+	display: block;
+}
+
+#telefoniam{
+	width: 110px;
+}
+
+#telefoniam:hover .infoextra{
+	display: block;
+	margin-top: 102px;
+}
+
+#telefoniaf{
+	width: 100px;
+}
+
+#telefoniaf:hover .infoextra{
+	display: block;
+	margin-top: 84px;
+}
+
+#cable{
+	width: 45px;
+}
+
+#cable:hover .infoextra{
+	display: block;
+	margin-top: 66px;
+}
+
+#pensiones{
+	width: 170px;
+}
+
+#pensiones:hover .infoextra{
+	display: block;
+	margin-top: 48px;
+}
+
+.infoextra{
+	width: 720px;
+	height: auto;
+	margin-top: 120px;
+	margin-left: -40px;
+	border: solid 1px black;
+	text-align: justify;
+	font-size: 11pt;
+	padding: 10px;
+	position: absolute;
+	display: none;
+}
+
+footer{
+	width: 960px;
+	height: 70px;
+	margin: 30px auto;
+	border: solid 3px #ee9a00;
+	border-radius: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.textfooter{
+	height: 70px;
+	width: 400px;
+	text-align: justify;
+	float: left;
+	line-height: 70px;
+	margin-left: 10px;
+}
+
+.imgfooter{
+	width: 124px;
+	height: 62px;
+	float: right;
+	margin: 4px 10px;
+}
+
