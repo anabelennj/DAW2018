@@ -1,0 +1,104 @@
+*{
+	margin: 0; padding: 0;
+}
+
+body{
+	background-color: lightgrey;
+}
+
+.cabecera{
+	width: 960px;
+	height: 50px;
+	margin-top: 30px;
+	margin: 0px auto;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	line-height: 50px;
+	font-weight: lighter;
+	background-color: lightgray;
+	border: solid 1px gray;
+}
+
+.cabecera h1{
+	float: left;
+	margin-left: 10px; 
+}
+
+.cabecera p{
+	float: right;
+	margin-right:10px; 
+}
+
+.contenido{
+	width: 960px;
+	height: 1000px;
+	margin: 0px auto;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	background-color: white;
+}
+
+section{
+	width: 100%;
+	height: 1000px;
+}
+
+
+.imagen{
+	width: 100%;
+	height: 400px;
+}
+
+.usuarios{
+	width: 100%;
+	height: 590px;
+	padding: 0px auto;
+}
+
+.titulo{
+	margin: 10px;
+}
+
+.cajitas{
+	width: 900px;
+	height: 400px;
+	margin: 0px auto; 
+}
+
+.caja{
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin: 10px;
+}
+
+.imgcaja{
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+	background-color: lightgray;
+	border-radius: 50%;
+	border: solid 1px black;
+}
+
+.nombre{
+	text-align: center;
+}
+
+.servicios{
+	margin: 10px;
+}
+
+.serviciosul{
+	margin: 10px;
+	margin-left: 30px;
+}
+
+footer{
+	width: 960px;
+	height: auto;
+	margin: 0px auto;
+	padding: 10px 0px;
+	background-color: lightgray;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	text-align: center;
+	border: solid 1px gray;
+}
